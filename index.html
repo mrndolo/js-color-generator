@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Random Color Generator</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+        }
+        h1 {
+            padding: 10px 20px;
+            border-radius: 10px;
+            background: #121242;
+            color: white;
+            font-size: 42px;
+        }
+        #value {
+            color: teal;
+        }
+        button {
+            padding: 16px 24px;
+            border-radius: 10px;
+            background: transparent;
+            outline: none;
+        }
+        button:hover {
+            background: #121242;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Background Color : <span id="value"></span></h1>
+        <button>Change background color</button>
+    </div>
+</body>
+</html>
